@@ -11,4 +11,6 @@ fn main() {
     println!("Min and Max values of isize: {} to {}", std::isize::MIN, std::isize::MAX);
     println!("Min and Max values of usize: {} to {}", std::usize::MIN, std::usize::MAX);
 
+    let trillion: u64 = 1_000_000_000_000; 
+    println!("Trillion: {}", trillion);
 }
