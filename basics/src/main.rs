@@ -25,4 +25,8 @@ fn main() {
     println!("The length of the city '{}' is: {}", city, city_size);
     city = "Cork";
     println!("The city has been changed to '{}'", city);
+
+    let spaces = "   ";
+    let spaces = spaces.len();
+    println!("The number of spaces is: {}", spaces);
 }
