@@ -1,3 +1,9 @@
+fn greet(msg: &str) {
+    println!("Welcome {}", msg);
+}
+
 fn main() {
-    println!("Hello, WWorld!");
+    greet("to the world of coding!");
+    greet("to Rust programming!");
+
 }
