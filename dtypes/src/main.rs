@@ -13,4 +13,8 @@ fn main() {
 
     let trillion: u64 = 1_000_000_000_000; 
     println!("Trillion: {}", trillion);
+
+    let pi: f32 = 3.14; // 32-bit floating point
+    let e: f64 = 2.718281828459045; // 64-bit floating point
+    println!("Pi: {}, e: {}", pi, e);
 }
