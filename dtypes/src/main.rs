@@ -22,4 +22,9 @@ fn main() {
     let is_rust_fun: bool = true;
     let is_dublin_hot: bool = false;
     println!("Is Rust fun? {}, Is Dublin hot? {}", is_rust_fun, is_dublin_hot);
+
+    let letter: char = 'R';
+    println!("Letter: {}", letter);
+    let name: &str = "Rust Programming";
+    println!("Name: {}", name);
 }
