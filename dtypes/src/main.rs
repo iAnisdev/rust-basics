@@ -27,4 +27,7 @@ fn main() {
     println!("Letter: {}", letter);
     let name: &str = "Rust Programming";
     println!("Name: {}", name);
+
+    let s = String::from("Hello, Rust!");
+    println!("String: {}", s);
 }
